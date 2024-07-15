@@ -1,18 +1,17 @@
-﻿using System;
-using UnityEngine;
+﻿using System.Collections.Generic;
+using Editor;
 using UnityEditor;
 using UnityEditor.Search;
-using System.Collections.Generic;
-using System.Linq;
-using JetBrains.Annotations;
-using UnityEditor.ShortcutManagement;
-using Object = UnityEngine.Object;
+using UnityEngine;
 
-namespace Editor
+namespace Bdeshi.UnitySearchExtensions.Editor
 {
     public static class GameObjectSearchProvider
     {
         private static string _providerId = "SearchInScene";
+        /// <summary>
+        /// ugly hack to get access to the don't destroy on load scene
+        /// </summary>
         private static GameObject DontDestroyHelper;
         
         [SearchItemProvider]
@@ -41,6 +40,7 @@ namespace Editor
                         }
                     }
 
+                    //search dondestrou if application is playing
                     if (Application.isPlaying)
                     {
                         var dontDestroyOnLoadObjects = GetDontDestroyOnLoadObjects();
@@ -57,23 +57,18 @@ namespace Editor
                 fetchThumbnail = (item, context) =>
                     AssetPreview.GetMiniThumbnail(AssetDatabase.LoadAssetAtPath<GameObject>(item.id)),
                 trackSelection = (item, context) => PingGameObject(item),
-                
             };
             provider.actions.Add(new SearchAction(_providerId, "Select", new GUIContent("Select"))
             {
                 handler = FocusOnGameObject,
                 closeWindowAfterExecution = true
             });
-            provider.actions.Add(new SearchAction(_providerId, "Ping", new GUIContent("Ping"))
-            {
-                handler = PingGameObject,
-                closeWindowAfterExecution = false
-            });
             provider.actions.Add(new SearchAction(_providerId, "Frame", new GUIContent("Frame"))
             {
                 handler = PingAndFrameGameObject,
                 closeWindowAfterExecution = false
             });
+            //#TODO for whatever reason, unity binds
             
             return provider;
         }
@@ -82,6 +77,8 @@ namespace Editor
         private static List<GameObject> GetDontDestroyOnLoadObjects()
         {
             var dontDestroyOnLoadObjects = new List<GameObject>();
+            
+            //ugly hack to get access to the don't destroy on load scene
             if (DontDestroyHelper == null)
             {
                 DontDestroyHelper = new GameObject("FakeDontDestroyOnLoadParent");

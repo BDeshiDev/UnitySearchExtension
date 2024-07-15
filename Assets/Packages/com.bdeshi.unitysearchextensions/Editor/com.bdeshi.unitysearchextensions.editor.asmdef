@@ -1,6 +1,6 @@
 {
     "name": "com.bdeshi.unitysearchextensions.editor",
-    "rootNamespace": "",
+    "rootNamespace": "Bdeshi.UnitySearchExtensions.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"

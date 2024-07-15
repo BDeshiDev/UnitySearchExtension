@@ -47,12 +47,8 @@ public static class SelectionHistorySearchProvider
                                 score = score
                             };
                             results.Add(searchItem);
-                            // Debug.Log($"Entry match({searchItem.score}) {entry.Reference.name}");
                         }
-                        // else
-                        // {
-                        //     Debug.Log($"Entry miss({SearchProviderUtility.LevenshteinDistance(entryName, searchQuery)}) {entry.Reference.name}");
-                        // }
+
                     }
                 }
                 return results;
@@ -61,13 +57,20 @@ public static class SelectionHistorySearchProvider
             fetchDescription = (item, context) => item.description,
             fetchThumbnail = (item, context) =>
                 AssetPreview.GetMiniThumbnail(AssetDatabase.LoadAssetAtPath<GameObject>(item.id)),
+            trackSelection = PingObject
         };
         provider.actions.Add(new SearchAction(_providerId, "Select", new GUIContent("Select"))
         {
             handler = FocusObject,
             closeWindowAfterExecution = true
         });
+
         return provider;
+    }
+
+    private static void PingObject(SearchItem arg1, SearchContext arg2)
+    {
+        PingObject(arg1);
     }
 
     public static bool IsPrefabAsset(UnityEngine.Object o)
@@ -93,4 +96,22 @@ public static class SelectionHistorySearchProvider
             EditorGUIUtility.PingObject(obj);
         }
     }
+
+    private static void PingObject(SearchItem item)
+    {
+        if (int.TryParse(item.id, out int instanceId))
+        {
+            var obj = EditorUtility.InstanceIDToObject(instanceId) ;
+            if (obj != null)
+            {
+                EditorGUIUtility.PingObject(obj);
+                Selection.activeObject = obj;
+                if (obj is GameObject go)
+                {
+                    Selection.activeGameObject = go;
+                }
+            }
+        }
+    }
+
 }
