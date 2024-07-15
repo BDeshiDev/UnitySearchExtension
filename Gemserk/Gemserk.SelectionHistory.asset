@@ -15,35 +15,15 @@ MonoBehaviour:
   selectionHistory:
     historySize: 200
     _history:
-    - reference: {fileID: 0}
+    - reference: {fileID: 5897886265953266890, guid: 698c64d122a477d4b97865464cd4c8c9, type: 3}
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
+    - reference: {fileID: 102900000, guid: 1c55c23b901f4f518b33ccb136a78394, type: 3}
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 0}
+    - reference: {fileID: 5897886265953266890, guid: 9b4537ccf3744254c9669ce875f4f896, type: 3}
       sceneName: 
       scenePath: 
       globalObjectId: 

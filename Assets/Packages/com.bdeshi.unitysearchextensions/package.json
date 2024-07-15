@@ -1,0 +1,22 @@
+{
+    "name": "com.bdeshi.unitysearchextensions",
+    "version": "1.0.0",
+    "displayName": "Bdeshi-dev's unity search extensions",
+    "description": "Extensions to unity search package for quick navigation in the editor",
+    "unity": "2022.3",
+    "unityRelease": "10f1",
+    "dependencies": {
+
+    },
+    "keywords": [
+        "Utility"
+        ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BDeshiDev/UnitySearchExtension.git"    
+        },
+        "license": "MIT",  
+        "author": {
+            "name": "B-DeshiDev"
+        }
+  }
