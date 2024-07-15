@@ -1,0 +1,149 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Bdeshi.UnitySearchExtensions.Editor
+  name: Bdeshi.UnitySearchExtensions.Editor
+  href: api/Bdeshi.UnitySearchExtensions.Editor.html
+  commentId: N:Bdeshi.UnitySearchExtensions.Editor
+  fullName: Bdeshi.UnitySearchExtensions.Editor
+  nameWithType: Bdeshi.UnitySearchExtensions.Editor
+- uid: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider
+  name: GameObjectSearchProvider
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.html
+  commentId: T:Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider
+  nameWithType: GameObjectSearchProvider
+- uid: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.CreateProvider
+  name: CreateProvider()
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.html#Bdeshi_UnitySearchExtensions_Editor_GameObjectSearchProvider_CreateProvider
+  commentId: M:Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.CreateProvider
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.CreateProvider()
+  nameWithType: GameObjectSearchProvider.CreateProvider()
+- uid: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.CreateProvider*
+  name: CreateProvider
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.html#Bdeshi_UnitySearchExtensions_Editor_GameObjectSearchProvider_CreateProvider_
+  commentId: Overload:Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.CreateProvider
+  isSpec: "True"
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.CreateProvider
+  nameWithType: GameObjectSearchProvider.CreateProvider
+- uid: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.ShowWindow
+  name: ShowWindow()
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.html#Bdeshi_UnitySearchExtensions_Editor_GameObjectSearchProvider_ShowWindow
+  commentId: M:Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.ShowWindow
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.ShowWindow()
+  nameWithType: GameObjectSearchProvider.ShowWindow()
+- uid: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.ShowWindow*
+  name: ShowWindow
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.html#Bdeshi_UnitySearchExtensions_Editor_GameObjectSearchProvider_ShowWindow_
+  commentId: Overload:Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.ShowWindow
+  isSpec: "True"
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.ShowWindow
+  nameWithType: GameObjectSearchProvider.ShowWindow
+- uid: Editor
+  name: Editor
+  href: api/Editor.html
+  commentId: N:Editor
+  fullName: Editor
+  nameWithType: Editor
+- uid: Editor.SearchProviderUtility
+  name: SearchProviderUtility
+  href: api/Editor.SearchProviderUtility.html
+  commentId: T:Editor.SearchProviderUtility
+  fullName: Editor.SearchProviderUtility
+  nameWithType: SearchProviderUtility
+- uid: Editor.SearchProviderUtility.FuzzyMatch(System.String,System.String,System.Int32@)
+  name: FuzzyMatch(string, string, out int)
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_FuzzyMatch_System_String_System_String_System_Int32__
+  commentId: M:Editor.SearchProviderUtility.FuzzyMatch(System.String,System.String,System.Int32@)
+  name.vb: FuzzyMatch(String, String, Integer)
+  fullName: Editor.SearchProviderUtility.FuzzyMatch(string, string, out int)
+  fullName.vb: Editor.SearchProviderUtility.FuzzyMatch(String, String, Integer)
+  nameWithType: SearchProviderUtility.FuzzyMatch(string, string, out int)
+  nameWithType.vb: SearchProviderUtility.FuzzyMatch(String, String, Integer)
+- uid: Editor.SearchProviderUtility.FuzzyMatch*
+  name: FuzzyMatch
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_FuzzyMatch_
+  commentId: Overload:Editor.SearchProviderUtility.FuzzyMatch
+  isSpec: "True"
+  fullName: Editor.SearchProviderUtility.FuzzyMatch
+  nameWithType: SearchProviderUtility.FuzzyMatch
+- uid: Editor.SearchProviderUtility.LevenshteinDistance(System.String,System.String)
+  name: LevenshteinDistance(string, string)
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_LevenshteinDistance_System_String_System_String_
+  commentId: M:Editor.SearchProviderUtility.LevenshteinDistance(System.String,System.String)
+  name.vb: LevenshteinDistance(String, String)
+  fullName: Editor.SearchProviderUtility.LevenshteinDistance(string, string)
+  fullName.vb: Editor.SearchProviderUtility.LevenshteinDistance(String, String)
+  nameWithType: SearchProviderUtility.LevenshteinDistance(string, string)
+  nameWithType.vb: SearchProviderUtility.LevenshteinDistance(String, String)
+- uid: Editor.SearchProviderUtility.LevenshteinDistance*
+  name: LevenshteinDistance
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_LevenshteinDistance_
+  commentId: Overload:Editor.SearchProviderUtility.LevenshteinDistance
+  isSpec: "True"
+  fullName: Editor.SearchProviderUtility.LevenshteinDistance
+  nameWithType: SearchProviderUtility.LevenshteinDistance
+- uid: Editor.SearchProviderUtility.UnityFuzzyMatch(System.String,System.String,System.Int32@)
+  name: UnityFuzzyMatch(string, string, out int)
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_UnityFuzzyMatch_System_String_System_String_System_Int32__
+  commentId: M:Editor.SearchProviderUtility.UnityFuzzyMatch(System.String,System.String,System.Int32@)
+  name.vb: UnityFuzzyMatch(String, String, Integer)
+  fullName: Editor.SearchProviderUtility.UnityFuzzyMatch(string, string, out int)
+  fullName.vb: Editor.SearchProviderUtility.UnityFuzzyMatch(String, String, Integer)
+  nameWithType: SearchProviderUtility.UnityFuzzyMatch(string, string, out int)
+  nameWithType.vb: SearchProviderUtility.UnityFuzzyMatch(String, String, Integer)
+- uid: Editor.SearchProviderUtility.UnityFuzzyMatch*
+  name: UnityFuzzyMatch
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_UnityFuzzyMatch_
+  commentId: Overload:Editor.SearchProviderUtility.UnityFuzzyMatch
+  isSpec: "True"
+  fullName: Editor.SearchProviderUtility.UnityFuzzyMatch
+  nameWithType: SearchProviderUtility.UnityFuzzyMatch
+- uid: Global
+  name: ''
+  href: api/Global.html
+- uid: Global.SelectionHistorySearchProvider
+  name: SelectionHistorySearchProvider
+  href: api/Global.SelectionHistorySearchProvider.html
+  commentId: T:Global.SelectionHistorySearchProvider
+  fullName: SelectionHistorySearchProvider
+  nameWithType: SelectionHistorySearchProvider
+- uid: Global.SelectionHistorySearchProvider.CreateSearchHistoryProvider
+  name: CreateSearchHistoryProvider()
+  href: api/Global.SelectionHistorySearchProvider.html#Global_SelectionHistorySearchProvider_CreateSearchHistoryProvider
+  commentId: M:Global.SelectionHistorySearchProvider.CreateSearchHistoryProvider
+  fullName: SelectionHistorySearchProvider.CreateSearchHistoryProvider()
+  nameWithType: SelectionHistorySearchProvider.CreateSearchHistoryProvider()
+- uid: Global.SelectionHistorySearchProvider.CreateSearchHistoryProvider*
+  name: CreateSearchHistoryProvider
+  href: api/Global.SelectionHistorySearchProvider.html#Global_SelectionHistorySearchProvider_CreateSearchHistoryProvider_
+  commentId: Overload:Global.SelectionHistorySearchProvider.CreateSearchHistoryProvider
+  isSpec: "True"
+  fullName: SelectionHistorySearchProvider.CreateSearchHistoryProvider
+  nameWithType: SelectionHistorySearchProvider.CreateSearchHistoryProvider
+- uid: Global.SelectionHistorySearchProvider.IsPrefabAsset(UnityEngine.Object)
+  name: IsPrefabAsset(Object)
+  href: api/Global.SelectionHistorySearchProvider.html#Global_SelectionHistorySearchProvider_IsPrefabAsset_UnityEngine_Object_
+  commentId: M:Global.SelectionHistorySearchProvider.IsPrefabAsset(UnityEngine.Object)
+  fullName: SelectionHistorySearchProvider.IsPrefabAsset(UnityEngine.Object)
+  nameWithType: SelectionHistorySearchProvider.IsPrefabAsset(UnityEngine.Object)
+- uid: Global.SelectionHistorySearchProvider.IsPrefabAsset*
+  name: IsPrefabAsset
+  href: api/Global.SelectionHistorySearchProvider.html#Global_SelectionHistorySearchProvider_IsPrefabAsset_
+  commentId: Overload:Global.SelectionHistorySearchProvider.IsPrefabAsset
+  isSpec: "True"
+  fullName: SelectionHistorySearchProvider.IsPrefabAsset
+  nameWithType: SelectionHistorySearchProvider.IsPrefabAsset
+- uid: Global.SelectionHistorySearchProvider.ShowWindow
+  name: ShowWindow()
+  href: api/Global.SelectionHistorySearchProvider.html#Global_SelectionHistorySearchProvider_ShowWindow
+  commentId: M:Global.SelectionHistorySearchProvider.ShowWindow
+  fullName: SelectionHistorySearchProvider.ShowWindow()
+  nameWithType: SelectionHistorySearchProvider.ShowWindow()
+- uid: Global.SelectionHistorySearchProvider.ShowWindow*
+  name: ShowWindow
+  href: api/Global.SelectionHistorySearchProvider.html#Global_SelectionHistorySearchProvider_ShowWindow_
+  commentId: Overload:Global.SelectionHistorySearchProvider.ShowWindow
+  isSpec: "True"
+  fullName: SelectionHistorySearchProvider.ShowWindow
+  nameWithType: SelectionHistorySearchProvider.ShowWindow
