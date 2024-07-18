@@ -1,6 +1,6 @@
 {
     "name": "com.bdeshi.unitysearchextensions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Bdeshi-dev's unity search extensions",
     "description": "Extensions to unity search package for quick navigation in the editor",
     "unity": "2022.3",
