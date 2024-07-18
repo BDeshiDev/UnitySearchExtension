@@ -9,7 +9,7 @@ public static class SelectionHistorySearchProvider
 {
     private static string _providerId = "SearchInSearchHistoryWindow";
 
-    [MenuItem("Window/QuickSearch/GameObjects In Selection History")]
+    [MenuItem("Search/GameObjects In Selection History  %#a")]
     public static void ShowWindow()
     {
         SearchService.ShowContextual(_providerId);
@@ -113,5 +113,6 @@ public static class SelectionHistorySearchProvider
             }
         }
     }
+
 
 }

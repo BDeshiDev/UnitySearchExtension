@@ -11,6 +11,13 @@
     "keywords": [
         "Utility"
         ],
+    "samples": [
+        {
+            "displayName": "Selection History Search window",
+            "description": "Adds a search window for the Selection History Package. Installl it before importing this",
+            "path": "Samples~/Demo/"
+        }
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/BDeshiDev/UnitySearchExtension.git"    

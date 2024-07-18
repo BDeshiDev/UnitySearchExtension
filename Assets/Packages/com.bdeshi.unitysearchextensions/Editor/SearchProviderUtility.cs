@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEditor.Search;
 using UnityEngine;
 
@@ -70,5 +71,52 @@ namespace Editor
 
             return costs[b.Length];
         }
+        
+        private static void PositionWindowToMatchProjectWindow(EditorWindow window)
+        {
+            EditorWindow projectWindow = GetProjectWindow();
+            if (projectWindow != null)
+            {
+                window.position = projectWindow.position;
+            }
+            else
+            {
+                Debug.LogError("Project window not found!");
+            }
+        }
+        
+        public static void PositionSearchViewToMatchWindow(ISearchView searchView, EditorWindow windowToMatch)
+        {
+            if (searchView is EditorWindow window)
+            {
+                window.position = windowToMatch.position;
+            }
+            else
+            {
+                Debug.LogError("Searchview not window!");
+            }
+        }
+
+        public  static EditorWindow GetHierarchyWindow()
+        {
+            // Find the project window
+            var hierarchyType = typeof(UnityEditor.Editor).Assembly.GetType("UnityEditor.SceneHierarchyWindow");
+            return hierarchyType != null ? EditorWindow.GetWindow(hierarchyType) : null;
+        }
+        public static EditorWindow GetProjectWindow()
+        {
+            var projectBrowserType = typeof(UnityEditor.Editor).Assembly.GetType("UnityEditor.ProjectBrowser");
+            return projectBrowserType != null ? EditorWindow.GetWindow(projectBrowserType) : null;
+        }
+        
+        public static void SetSearchViewToDisplayMode(this ISearchView view, DisplayMode displayMode)
+        {
+            //wth is this bs
+            view.itemIconSize = (float)displayMode;
+        }
+
     }
+    
+    
+
 }
