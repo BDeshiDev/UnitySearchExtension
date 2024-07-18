@@ -4,15 +4,20 @@
     "title": "Class GameObjectSearchProvider | |",
     "keywords": "Class GameObjectSearchProvider Namespace Bdeshi.UnitySearchExtensions.Editor public static class GameObjectSearchProvider Inheritance object GameObjectSearchProvider Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CreateProvider() public static SearchProvider CreateProvider() Returns SearchProvider ShowWindow() public static void ShowWindow()"
   },
+  "api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html": {
+    "href": "api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html",
+    "title": "Class GeneralSearchWindows | |",
+    "keywords": "Class GeneralSearchWindows Namespace Bdeshi.UnitySearchExtensions.Editor public static class GeneralSearchWindows Inheritance object GeneralSearchWindows Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods FindRefNonRecursiveSearch() public static void FindRefNonRecursiveSearch() FindRefNonRecursiveSearch(MenuCommand) public static void FindRefNonRecursiveSearch(MenuCommand menuCommand) Parameters menuCommand MenuCommand FindScene() public static void FindScene()"
+  },
   "api/Bdeshi.UnitySearchExtensions.Editor.html": {
     "href": "api/Bdeshi.UnitySearchExtensions.Editor.html",
     "title": "Namespace Bdeshi.UnitySearchExtensions.Editor | |",
-    "keywords": "Namespace Bdeshi.UnitySearchExtensions.Editor Classes GameObjectSearchProvider"
+    "keywords": "Namespace Bdeshi.UnitySearchExtensions.Editor Classes GameObjectSearchProvider GeneralSearchWindows"
   },
   "api/Editor.SearchProviderUtility.html": {
     "href": "api/Editor.SearchProviderUtility.html",
     "title": "Class SearchProviderUtility | |",
-    "keywords": "Class SearchProviderUtility Namespace Editor public static class SearchProviderUtility Inheritance object SearchProviderUtility Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods FuzzyMatch(string, string, out int) public static bool FuzzyMatch(string source, string target, out int score) Parameters source string target string score int Returns bool LevenshteinDistance(string, string) public static int LevenshteinDistance(string a, string b) Parameters a string b string Returns int UnityFuzzyMatch(string, string, out int) public static bool UnityFuzzyMatch(string source, string target, out int score) Parameters source string target string score int Returns bool"
+    "keywords": "Class SearchProviderUtility Namespace Editor public static class SearchProviderUtility Inheritance object SearchProviderUtility Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods FuzzyMatch(string, string, out int) public static bool FuzzyMatch(string source, string target, out int score) Parameters source string target string score int Returns bool GetHierarchyWindow() public static EditorWindow GetHierarchyWindow() Returns EditorWindow GetProjectWindow() public static EditorWindow GetProjectWindow() Returns EditorWindow LevenshteinDistance(string, string) public static int LevenshteinDistance(string a, string b) Parameters a string b string Returns int PositionSearchViewToMatchWindow(ISearchView, EditorWindow) public static void PositionSearchViewToMatchWindow(ISearchView searchView, EditorWindow windowToMatch) Parameters searchView ISearchView windowToMatch EditorWindow SetSearchViewToDisplayMode(ISearchView, DisplayMode) public static void SetSearchViewToDisplayMode(this ISearchView view, DisplayMode displayMode) Parameters view ISearchView displayMode DisplayMode UnityFuzzyMatch(string, string, out int) public static bool UnityFuzzyMatch(string source, string target, out int score) Parameters source string target string score int Returns bool"
   },
   "api/Editor.html": {
     "href": "api/Editor.html",

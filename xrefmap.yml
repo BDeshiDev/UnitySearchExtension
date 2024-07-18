@@ -39,6 +39,44 @@ references:
   isSpec: "True"
   fullName: Bdeshi.UnitySearchExtensions.Editor.GameObjectSearchProvider.ShowWindow
   nameWithType: GameObjectSearchProvider.ShowWindow
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows
+  name: GeneralSearchWindows
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html
+  commentId: T:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows
+  nameWithType: GeneralSearchWindows
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch
+  name: FindRefNonRecursiveSearch()
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindRefNonRecursiveSearch
+  commentId: M:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch()
+  nameWithType: GeneralSearchWindows.FindRefNonRecursiveSearch()
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch(MenuCommand)
+  name: FindRefNonRecursiveSearch(MenuCommand)
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindRefNonRecursiveSearch_MenuCommand_
+  commentId: M:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch(MenuCommand)
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch(MenuCommand)
+  nameWithType: GeneralSearchWindows.FindRefNonRecursiveSearch(MenuCommand)
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch*
+  name: FindRefNonRecursiveSearch
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindRefNonRecursiveSearch_
+  commentId: Overload:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch
+  isSpec: "True"
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch
+  nameWithType: GeneralSearchWindows.FindRefNonRecursiveSearch
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindScene
+  name: FindScene()
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindScene
+  commentId: M:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindScene
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindScene()
+  nameWithType: GeneralSearchWindows.FindScene()
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindScene*
+  name: FindScene
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindScene_
+  commentId: Overload:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindScene
+  isSpec: "True"
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindScene
+  nameWithType: GeneralSearchWindows.FindScene
 - uid: Editor
   name: Editor
   href: api/Editor.html
@@ -67,6 +105,32 @@ references:
   isSpec: "True"
   fullName: Editor.SearchProviderUtility.FuzzyMatch
   nameWithType: SearchProviderUtility.FuzzyMatch
+- uid: Editor.SearchProviderUtility.GetHierarchyWindow
+  name: GetHierarchyWindow()
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_GetHierarchyWindow
+  commentId: M:Editor.SearchProviderUtility.GetHierarchyWindow
+  fullName: Editor.SearchProviderUtility.GetHierarchyWindow()
+  nameWithType: SearchProviderUtility.GetHierarchyWindow()
+- uid: Editor.SearchProviderUtility.GetHierarchyWindow*
+  name: GetHierarchyWindow
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_GetHierarchyWindow_
+  commentId: Overload:Editor.SearchProviderUtility.GetHierarchyWindow
+  isSpec: "True"
+  fullName: Editor.SearchProviderUtility.GetHierarchyWindow
+  nameWithType: SearchProviderUtility.GetHierarchyWindow
+- uid: Editor.SearchProviderUtility.GetProjectWindow
+  name: GetProjectWindow()
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_GetProjectWindow
+  commentId: M:Editor.SearchProviderUtility.GetProjectWindow
+  fullName: Editor.SearchProviderUtility.GetProjectWindow()
+  nameWithType: SearchProviderUtility.GetProjectWindow()
+- uid: Editor.SearchProviderUtility.GetProjectWindow*
+  name: GetProjectWindow
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_GetProjectWindow_
+  commentId: Overload:Editor.SearchProviderUtility.GetProjectWindow
+  isSpec: "True"
+  fullName: Editor.SearchProviderUtility.GetProjectWindow
+  nameWithType: SearchProviderUtility.GetProjectWindow
 - uid: Editor.SearchProviderUtility.LevenshteinDistance(System.String,System.String)
   name: LevenshteinDistance(string, string)
   href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_LevenshteinDistance_System_String_System_String_
@@ -83,6 +147,32 @@ references:
   isSpec: "True"
   fullName: Editor.SearchProviderUtility.LevenshteinDistance
   nameWithType: SearchProviderUtility.LevenshteinDistance
+- uid: Editor.SearchProviderUtility.PositionSearchViewToMatchWindow(ISearchView,EditorWindow)
+  name: PositionSearchViewToMatchWindow(ISearchView, EditorWindow)
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_PositionSearchViewToMatchWindow_ISearchView_EditorWindow_
+  commentId: M:Editor.SearchProviderUtility.PositionSearchViewToMatchWindow(ISearchView,EditorWindow)
+  fullName: Editor.SearchProviderUtility.PositionSearchViewToMatchWindow(ISearchView, EditorWindow)
+  nameWithType: SearchProviderUtility.PositionSearchViewToMatchWindow(ISearchView, EditorWindow)
+- uid: Editor.SearchProviderUtility.PositionSearchViewToMatchWindow*
+  name: PositionSearchViewToMatchWindow
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_PositionSearchViewToMatchWindow_
+  commentId: Overload:Editor.SearchProviderUtility.PositionSearchViewToMatchWindow
+  isSpec: "True"
+  fullName: Editor.SearchProviderUtility.PositionSearchViewToMatchWindow
+  nameWithType: SearchProviderUtility.PositionSearchViewToMatchWindow
+- uid: Editor.SearchProviderUtility.SetSearchViewToDisplayMode(ISearchView,DisplayMode)
+  name: SetSearchViewToDisplayMode(ISearchView, DisplayMode)
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_SetSearchViewToDisplayMode_ISearchView_DisplayMode_
+  commentId: M:Editor.SearchProviderUtility.SetSearchViewToDisplayMode(ISearchView,DisplayMode)
+  fullName: Editor.SearchProviderUtility.SetSearchViewToDisplayMode(ISearchView, DisplayMode)
+  nameWithType: SearchProviderUtility.SetSearchViewToDisplayMode(ISearchView, DisplayMode)
+- uid: Editor.SearchProviderUtility.SetSearchViewToDisplayMode*
+  name: SetSearchViewToDisplayMode
+  href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_SetSearchViewToDisplayMode_
+  commentId: Overload:Editor.SearchProviderUtility.SetSearchViewToDisplayMode
+  isSpec: "True"
+  fullName: Editor.SearchProviderUtility.SetSearchViewToDisplayMode
+  nameWithType: SearchProviderUtility.SetSearchViewToDisplayMode
 - uid: Editor.SearchProviderUtility.UnityFuzzyMatch(System.String,System.String,System.Int32@)
   name: UnityFuzzyMatch(string, string, out int)
   href: api/Editor.SearchProviderUtility.html#Editor_SearchProviderUtility_UnityFuzzyMatch_System_String_System_String_System_Int32__

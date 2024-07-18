@@ -89,7 +89,7 @@
 
 
   <h1 id="Editor_SearchProviderUtility" data-uid="Editor.SearchProviderUtility" class="text-break">
-Class SearchProviderUtility  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class SearchProviderUtility  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -156,7 +156,7 @@ Class SearchProviderUtility  <a class="header-action link-secondary" title="View
 
   <h3 id="Editor_SearchProviderUtility_FuzzyMatch_System_String_System_String_System_Int32__" data-uid="Editor.SearchProviderUtility.FuzzyMatch(System.String,System.String,System.Int32@)">
   FuzzyMatch(string, string, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -192,11 +192,73 @@ Class SearchProviderUtility  <a class="header-action link-secondary" title="View
 
 
 
+  <a id="Editor_SearchProviderUtility_GetHierarchyWindow_" data-uid="Editor.SearchProviderUtility.GetHierarchyWindow*"></a>
+
+  <h3 id="Editor_SearchProviderUtility_GetHierarchyWindow" data-uid="Editor.SearchProviderUtility.GetHierarchyWindow">
+  GetHierarchyWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EditorWindow GetHierarchyWindow()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EditorWindow</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Editor_SearchProviderUtility_GetProjectWindow_" data-uid="Editor.SearchProviderUtility.GetProjectWindow*"></a>
+
+  <h3 id="Editor_SearchProviderUtility_GetProjectWindow" data-uid="Editor.SearchProviderUtility.GetProjectWindow">
+  GetProjectWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EditorWindow GetProjectWindow()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EditorWindow</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Editor_SearchProviderUtility_LevenshteinDistance_" data-uid="Editor.SearchProviderUtility.LevenshteinDistance*"></a>
 
   <h3 id="Editor_SearchProviderUtility_LevenshteinDistance_System_String_System_String_" data-uid="Editor.SearchProviderUtility.LevenshteinDistance(System.String,System.String)">
   LevenshteinDistance(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -230,11 +292,77 @@ Class SearchProviderUtility  <a class="header-action link-secondary" title="View
 
 
 
+  <a id="Editor_SearchProviderUtility_PositionSearchViewToMatchWindow_" data-uid="Editor.SearchProviderUtility.PositionSearchViewToMatchWindow*"></a>
+
+  <h3 id="Editor_SearchProviderUtility_PositionSearchViewToMatchWindow_ISearchView_EditorWindow_" data-uid="Editor.SearchProviderUtility.PositionSearchViewToMatchWindow(ISearchView,EditorWindow)">
+  PositionSearchViewToMatchWindow(ISearchView, EditorWindow)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PositionSearchViewToMatchWindow(ISearchView searchView, EditorWindow windowToMatch)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>searchView</code> <span class="xref">ISearchView</span></dt>
+    <dd></dd>
+    <dt><code>windowToMatch</code> <span class="xref">EditorWindow</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Editor_SearchProviderUtility_SetSearchViewToDisplayMode_" data-uid="Editor.SearchProviderUtility.SetSearchViewToDisplayMode*"></a>
+
+  <h3 id="Editor_SearchProviderUtility_SetSearchViewToDisplayMode_ISearchView_DisplayMode_" data-uid="Editor.SearchProviderUtility.SetSearchViewToDisplayMode(ISearchView,DisplayMode)">
+  SetSearchViewToDisplayMode(ISearchView, DisplayMode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetSearchViewToDisplayMode(this ISearchView view, DisplayMode displayMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <span class="xref">ISearchView</span></dt>
+    <dd></dd>
+    <dt><code>displayMode</code> <span class="xref">DisplayMode</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Editor_SearchProviderUtility_UnityFuzzyMatch_" data-uid="Editor.SearchProviderUtility.UnityFuzzyMatch*"></a>
 
   <h3 id="Editor_SearchProviderUtility_UnityFuzzyMatch_System_String_System_String_System_Int32__" data-uid="Editor.SearchProviderUtility.UnityFuzzyMatch(System.String,System.String,System.Int32@)">
   UnityFuzzyMatch(string, string, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/UnitySearchExtension/blob/main/Assets/Packages/com.bdeshi.unitysearchextensions/Editor/SearchProviderUtility.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
