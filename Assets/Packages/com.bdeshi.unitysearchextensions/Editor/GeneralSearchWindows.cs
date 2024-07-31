@@ -40,15 +40,30 @@ namespace Bdeshi.UnitySearchExtensions.Editor
         public static void FindScene() {
             var view = SearchService.ShowContextual();
             
-            foreach (var textFilter in view.context.textFilters)
-            {
-                Debug.Log($"TextFilter {textFilter}");
-            }
             view.SetSearchText("t:scene ");
             view.Focus();
             view.FocusSearch();
             view.SetSearchViewToDisplayMode(DisplayMode.List);
         }
+        
+                
+        [MenuItem("Search/Find Prefab %p", false)]
+        public static void FindPrefab() {
+            var view = SearchService.ShowContextual();
 
+            view.SetSearchText("t:prefab ");
+            view.Focus();
+            view.FocusSearch();
+            view.SetSearchViewToDisplayMode(DisplayMode.List);
+        }
+        [MenuItem("Search/Find  in project %i", false)]
+        public static void FindInProject() {
+            var view = SearchService.ShowContextual();
+
+            view.SetSearchText("p:");
+            view.Focus();
+            view.FocusSearch();
+            view.SetSearchViewToDisplayMode(DisplayMode.List);
+        }
     }
 }

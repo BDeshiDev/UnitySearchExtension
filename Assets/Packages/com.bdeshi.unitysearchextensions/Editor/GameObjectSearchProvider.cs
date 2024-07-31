@@ -112,7 +112,7 @@ namespace Bdeshi.UnitySearchExtensions.Editor
             }
         }
 
-        [MenuItem("Search/GameObjects In Scene %p")]
+        [MenuItem("Search/GameObjects In Scene %j")]
         public static void ShowWindow()
         {
             SearchService.ShowContextual(_providerId);
