@@ -45,6 +45,32 @@ references:
   commentId: T:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows
   fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows
   nameWithType: GeneralSearchWindows
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindInProject
+  name: FindInProject()
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindInProject
+  commentId: M:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindInProject
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindInProject()
+  nameWithType: GeneralSearchWindows.FindInProject()
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindInProject*
+  name: FindInProject
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindInProject_
+  commentId: Overload:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindInProject
+  isSpec: "True"
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindInProject
+  nameWithType: GeneralSearchWindows.FindInProject
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindPrefab
+  name: FindPrefab()
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindPrefab
+  commentId: M:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindPrefab
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindPrefab()
+  nameWithType: GeneralSearchWindows.FindPrefab()
+- uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindPrefab*
+  name: FindPrefab
+  href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindPrefab_
+  commentId: Overload:Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindPrefab
+  isSpec: "True"
+  fullName: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindPrefab
+  nameWithType: GeneralSearchWindows.FindPrefab
 - uid: Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.FindRefNonRecursiveSearch
   name: FindRefNonRecursiveSearch()
   href: api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html#Bdeshi_UnitySearchExtensions_Editor_GeneralSearchWindows_FindRefNonRecursiveSearch

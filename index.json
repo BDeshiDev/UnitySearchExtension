@@ -7,7 +7,7 @@
   "api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html": {
     "href": "api/Bdeshi.UnitySearchExtensions.Editor.GeneralSearchWindows.html",
     "title": "Class GeneralSearchWindows | |",
-    "keywords": "Class GeneralSearchWindows Namespace Bdeshi.UnitySearchExtensions.Editor public static class GeneralSearchWindows Inheritance object GeneralSearchWindows Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods FindRefNonRecursiveSearch() public static void FindRefNonRecursiveSearch() FindRefNonRecursiveSearch(MenuCommand) public static void FindRefNonRecursiveSearch(MenuCommand menuCommand) Parameters menuCommand MenuCommand FindScene() public static void FindScene()"
+    "keywords": "Class GeneralSearchWindows Namespace Bdeshi.UnitySearchExtensions.Editor public static class GeneralSearchWindows Inheritance object GeneralSearchWindows Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods FindInProject() public static void FindInProject() FindPrefab() public static void FindPrefab() FindRefNonRecursiveSearch() public static void FindRefNonRecursiveSearch() FindRefNonRecursiveSearch(MenuCommand) public static void FindRefNonRecursiveSearch(MenuCommand menuCommand) Parameters menuCommand MenuCommand FindScene() public static void FindScene()"
   },
   "api/Bdeshi.UnitySearchExtensions.Editor.html": {
     "href": "api/Bdeshi.UnitySearchExtensions.Editor.html",
