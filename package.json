@@ -1,0 +1,29 @@
+{
+    "name": "com.bdeshi.unitysearchextensions",
+    "version": "1.0.2",
+    "displayName": "Bdeshi-dev's unity search extensions",
+    "description": "Extensions to unity search package for quick navigation in the editor",
+    "unity": "2022.3",
+    "unityRelease": "10f1",
+    "dependencies": {
+
+    },
+    "keywords": [
+        "Utility"
+        ],
+    "samples": [
+        {
+            "displayName": "Selection History Search window",
+            "description": "Adds a search window for the Selection History Package. Installl it before importing this",
+            "path": "Samples~/Demo/"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BDeshiDev/UnitySearchExtension.git"    
+        },
+        "license": "MIT",  
+        "author": {
+            "name": "B-DeshiDev"
+        }
+  }
