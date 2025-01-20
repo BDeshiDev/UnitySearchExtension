@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/sytlesheet.uss?fileID=7433441132597879392&amp;guid=082a8a596e4f6dc4b8af1e861d424512&amp;type=3#sytlesheet" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 23, 23, 0.46); height: 50%; width: 100%; flex-direction: row; justify-content: space-around; align-self: center;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button-test" style="height: 100%; width: 20%;" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button-test" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 126, 180, 0.46); height: 50%;">
+            <ui:Label tabindex="-1" text="TITLE" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+            <ui:Label tabindex="-1" text="FOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BARFOO FOO BAR BAR" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 118px; font-size: 15px; white-space: normal; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:VisualElement style="flex-grow: 1; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button-main" />
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button-main" style="background-color: rgb(255, 31, 0);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
